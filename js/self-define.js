@@ -22,7 +22,7 @@ const $search = $('.form-control');
             $('li a').css('color','#f5f5f5');
              $('h1 a').css('color','#f5f5f5');
            $('.entry-title').css('color','#f5f5f5');
-           $('. navbar ').css('border-bottom', '2px solid #e7e7e7');
+           $('.navbar ').css('border-bottom', '2px solid #e7e7e7');
         }, 1000);
 
       } else {
@@ -40,7 +40,7 @@ const $search = $('.form-control');
            $('li a').css('color','#141415');
             $('h1 a').css('color','#141415');
             $('.entry-title').css('color','#141415');
-            $('. navbar ').css('border-bottom', '2px solid #020202');
+            $('.navbar ').css('border-bottom', '2px solid #020202');
         }, 1000);
 
       }
