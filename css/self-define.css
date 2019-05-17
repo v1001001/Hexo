@@ -1,0 +1,60 @@
+body {
+	   animation: fade-in;/*动画名称*/    
+      animation-duration: 1.5s;/*动画持续时间*/    
+      -webkit-animation:fade-in 1.5s;/*针对webkit内核*/    
+}
+
+h1 {
+        position: relative;
+        display: inline-block;
+        outline: none;
+        text-decoration: none;
+        color: #000;
+        font-size: 32px;
+        padding: 5px 10px;
+        }
+
+      h1 a:hover::before, h1 a:hover::after { position: absolute; }
+       h1 a:hover::before { content: "\5B"; left: -20px; }
+       h1 a:hover::after { content: "\5D"; right:  -20px; }
+       h1 a:hover {color: #23527c}
+.switch { 
+  position: absolute; 
+  top: -200px; 
+  right: 100px; 
+  width: 3px; 
+  height: 500px; 
+  background-color: #777; 
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.3); 
+  transition: top 500ms ease; 
+  cursor: pointer; 
+  z-index: 100; 
+}
+
+.switch:before, .switch:after { 
+  position: absolute; 
+  content: ''; 
+  left: -8px; 
+  width: 18px; 
+  height: 21px; 
+  background-color: #777; 
+  border-radius: 10px; 
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.3); 
+} 
+
+.switch:before { 
+  bottom: -20px; 
+} 
+.switch:after { 
+  bottom: -39px; 
+} 
+
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  outline: none;
+}
