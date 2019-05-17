@@ -1,2 +1,2 @@
-# Hexo
-Hexo搭建Blog及Next主题尝试~~
+# WordPress
+WordPress搭建Blog及各种主题尝试~~
